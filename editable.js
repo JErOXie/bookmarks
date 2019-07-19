@@ -1,5 +1,5 @@
 javascript:(function() { 
-   document.querySelectorAll('*').forEach((element) => { 
-      element.setAttribute('contentEditable', true); 
+   document.querySelectorAll('*').forEach((event) => { 
+      event.setAttribute('contentEditable', true); 
      }, false); 
 })()
