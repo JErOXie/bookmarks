@@ -1,3 +1,3 @@
-function handleOrientation(ele) {
-   if (ele.beta > 40) window.scrollBy(0, 2);
-}; window.addEventListener('deviceorientation', handleOrientation)
+function handleOrientation(tmpArr) {
+   if (tmpArr.beta > 40) return window.scrollBy(0, 2);
+}; window.addEventListener('deviceorientation', handleOrientation);
