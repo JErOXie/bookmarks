@@ -1,5 +1,5 @@
 javascript:(function() { 
-   document.querySelectorAll('*').forEach(aElm => { 
-      aElm.setAttribute('contentEditable', true); 
-   });
+   document.querySelectorAll('*').forEach(tmpArr => { 
+      tmpArr.setAttribute('contentEditable', true); 
+   }, true);
 })()
